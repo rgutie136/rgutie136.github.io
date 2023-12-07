@@ -8,6 +8,8 @@ html {
 	background-color: #1F1A24;
 	border-radius: 10px;
 	padding:10px;
+	margin:auto;
+	max-width: 900px;
 }
 
 body {
@@ -15,8 +17,9 @@ body {
 	padding: 5% 8% 1% 8%;
 	margin:0;
 }
-h2 {
+.colorHead {
 	text-align: center;
+	font-size: 20px;
 	font-weight: bold;
 	border: 4px;
 	padding-top: 6px;
@@ -27,20 +30,64 @@ h2 {
 	color: #000000;
 	border-radius: 5px;
 }
+.row {
+  margin: 8px -16px;
+}
 
-@media only screen and (max-width: 1279px) {
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	max-width: 75%;
-	height: 100%;
-	margin: auto;
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.work {
+  background-color: #9a9898;
+  padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+	width: 50%;
   }
 }
 
-.container {
+@media screen and (max-width: 600px) {
+  .column {
+	width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1279px) {
+.containerHome {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		max-width: 75%;
+		height: 100%;
+		margin: auto;
+  	}
+	#home {
+		display:flex;
+		flex-direction: column;
+		text-align: center;
+		font-family: rubik;
+		font-size: 20px;
+		position: right;
+		margin-left:0;
+	}
+}
+
+.containerHome {
   	display: flex;
   	align-items: center;
   	justify-content: center;
@@ -49,23 +96,13 @@ h2 {
   	margin: auto;
 }
 
-.container img {
+.containerHome img {
 	max-width: 500px;
 	height: auto;
 	width: 85%;
 	display: center;
 	flex-shrink: 0;
 }
-@media only screen and (max-width: 1279px) {
-#home {
-	display:flex;
-	flex-direction: column;
-	text-align: center;
-	font-family: rubik;
-	font-size: 20px;
-	position: right;
-	margin-left:0;
-}}
 
 #home {
 	display:flex;
