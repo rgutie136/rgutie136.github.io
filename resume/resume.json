@@ -1,0 +1,124 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "education": "Education",
+    "work": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Honors and Organizations"
+  },
+  "basics": {
+    "name": "Romulo Javier Gutierrez",
+    "email": "rgutie136@gmail.com",
+    "phone": "(773)-837-1325",
+    "website": "rgutie136.github.io",
+    "location": {
+      "address": "Hammond, IN"
+    }
+  },
+  "education": [
+    {
+      "institution": "Purdue University",
+      "location": "Hammond, IN",
+      "studyType": "BS",
+      "startDate": "Aug 2020",
+      "endDate": "May 2024",
+      "area": "Computer Science",
+      "gpa": "3.6"
+    },
+    {
+      "institution": "Hammond Academy of Science and Technology",
+      "location": "Hammond, IN",
+      "studyType": "High School Diploma (Technical Honors)",
+      "gpa": "3.66",
+      "startDate": "Aug 2013",
+      "endDate": "May 2020"
+    }
+  ],
+  "work": [
+    {
+      "company": "Hammond Public Library",
+      "location": "Hammond, IN",
+      "position": "Maintenace Volunteer",
+      "website": "",
+      "startDate": "May 2020",
+      "endDate": "June 2023",
+      "highlights": [
+        "Help assist with other workers in major jobs",
+        "Wipe down tables",
+        "Pick trash around the building",
+        "Watering plants"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Bilingual",
+      "level": "",
+      "keywords": [
+        "English",
+        "Spanish"
+      ]
+    },
+    {
+      "keywords": [
+        "Java",
+        "R / R Studio",
+        "C++",
+        "HTML/CSS",
+        "JavaScript",
+        "PHP",
+        "Python",
+        "Verse"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "UEFN / Fortnite Creative ",
+        "Drawing",
+        "Video Editing",
+        "Photo Editing"
+      ],
+      "name": "Misc Skills"
+    }
+  ],
+  "projects": [
+    {
+      "url": "rgutie136.github.io",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Replit",
+        "GitHub Pages"
+      ],
+      "name": "Online Portfolio",
+      "description": "An online portfolio containing up to date projects and contacts"
+    },
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "MySQL",
+        "PHP"
+      ],
+      "name": "FitCheck Database Project",
+      "description": "College group project that was an online website that allowed users to track their activities with a functional login system connected to a hosted database. Using Replit as the hosting and collaborative service and MySQL and phpAdmin to magange the database."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Society of Hispanic Professions in Engineering (SHPE)"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

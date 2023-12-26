@@ -1,0 +1,99 @@
+/* You can poke around this CSS if you want to customize your formatting / styling further */
+/* You can even import custom fonts! */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+/* meta */
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size:  14px;
+}
+
+.spacer {
+    margin: 0px auto;
+}
+
+/* ordering of content */
+h1 {
+    order: 0;
+}
+
+.headerInfo {
+    order: 1;
+}
+
+/* styling content */
+h1, h2, h3, p, a, li {
+    color: black;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 6px 0px;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0;
+}
+
+h3 {
+    display: flex;
+    font-size: 15px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+
+ul {
+    margin: 4px 0;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+/* header info content */
+.headerInfo > ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 6px auto 0px !important;
+    padding: 0;
+}
+
+.headerInfo > ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+
+.headerInfo > ul >li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.headerInfo > ul > li:not(:last-child):after {
+    content: "•";
+    margin-left: 8px;
+}
