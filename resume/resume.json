@@ -64,10 +64,10 @@
       "keywords": [
         "Java",
         "R / R Studio",
-        "C++",
         "HTML/CSS",
         "JavaScript",
         "PHP",
+        "C++",
         "Python",
         "Verse"
       ],
@@ -90,7 +90,7 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "Replit",
+        "Bootstrap",
         "GitHub Pages"
       ],
       "name": "Online Portfolio",
@@ -101,10 +101,25 @@
         "HTML",
         "CSS",
         "MySQL",
-        "PHP"
+        "PHP",
+        "Replit"
       ],
-      "name": "FitCheck Database Project",
-      "description": "College group project that was an online website that allowed users to track their activities with a functional login system connected to a hosted database. Using Replit as the hosting and collaborative service and MySQL and phpAdmin to magange the database."
+      "name": "FitCheck Project",
+      "description": "College group database project that was an online website that allowed users to track their activities with a functional login system connected to a hosted database. Using Replit as the hosting and collaborative service and MySQL and phpAdmin to magange the database.",
+      "url": "github.com/rgutie136/FitCheck-Project"
+    },
+    {
+      "keywords": [
+        "C++"
+      ],
+      "name": "DFSM Simulator",
+      "description": "Automata project that simulates a deterministic finite state machine (DFSM) using a user made text file containing the alphabet and checking for valid strings in alphabet",
+      "url": "github.com/rgutie136/CS410-DSFMSimulator"
+    },
+    {
+      "keywords": [
+        ""
+      ]
     }
   ],
   "awards": [
