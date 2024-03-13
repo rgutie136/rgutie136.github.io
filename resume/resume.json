@@ -1,0 +1,143 @@
+{
+	"selectedTemplate": 1,
+	"headings": {
+		"education": "Education",
+		"work": "Experience",
+		"skills": "Skills",
+		"projects": "Projects",
+		"awards": "Honors and Organizations"
+	},
+	"basics": {
+		"name": "Romulo Javier Gutierrez",
+		"email": "rgutie136@gmail.com",
+		"phone": "(773)-837-1325",
+		"website": "rgutie136.github.io",
+		"location": {
+			"address": "Hammond, IN"
+		}
+	},
+	"education": [
+		{
+			"institution": "Purdue University",
+			"location": "Hammond, IN",
+			"startDate": "Aug 2020",
+			"endDate": "May 2024",
+			"area": "Computer Science",
+			"gpa": "3.60",
+			"studyType": "BS"
+		},
+		{
+			"institution": "Hammond Academy of Science and Technology",
+			"location": "Hammond, IN",
+			"studyType": "High School Diploma (Technical Honors)",
+			"gpa": "3.66",
+			"startDate": "Aug 2013",
+			"endDate": "May 2020"
+		}
+	],
+	"work": [
+		{
+			"company": "Hammond Public Library",
+			"location": "Hammond, IN",
+			"position": "Maintenace Volunteer",
+			"website": "",
+			"startDate": "May 2020",
+			"endDate": "June 2023",
+			"highlights": [
+				"Communicated effectively with staff and volunteers to address maintenance needs and tasks effectively",
+				"Engaged in routine cleaning tasks, including wiping down tables and sanitizing surfaces to maintain cleanliness and hygiene standards during the pandemic",
+				"Contributed to the upkeep of the environment by promptly picking up trash and watering plants to maintain a tidy and welcoming space",
+				"Supported the maintenance team by completing various tasks as needed, demonstrating adaptability and willingness to assist with diverse responsibilities"
+			]
+		}
+	],
+	"skills": [
+		{
+			"name": "Bilingual",
+			"level": "",
+			"keywords": ["English", "Spanish"]
+		},
+		{
+			"keywords": [
+				"Java",
+				"R",
+				"C#",
+				"HTML/CSS",
+				"JavaScript",
+				"MySQL",
+				"C++"
+			],
+			"name": "Technical Skills"
+		},
+		{
+			"keywords": [
+				"UEFN / Fortnite Creative ",
+				"Drawing",
+				"Video Editing",
+				"Photo Editing"
+			],
+			"name": "Misc Skills"
+		}
+	],
+	"projects": [
+		{
+			"url": "rgutie136.github.io",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"JavaScript",
+				"Bootstrap",
+				"GitHub Pages"
+			],
+			"name": "Online Portfolio",
+			"description": "In addition to my resume, I maintain an updated online portfolio featuring my latest projects and contact information. Feel free to explore my portfolio to view my skills and accomplishments!"
+		},
+		{
+			"keywords": ["HTML", "CSS", "MySQL", "PHP", "Replit"],
+			"name": "FitCheck Project",
+			"description": "Developed a college group database project, an online platform enabling users to monitor their activities via a functional login system linked to a hosted database. Leveraging Replit as the hosting and collaborative service, with MySQL and phpAdmin employed to manage the database",
+			"url": "github.com/rgutie136/FitCheck-Project"
+		},
+		{
+			"keywords": ["C++", "Java"],
+			"name": "DFSM + CFG Simulator",
+			"description": "Designed and implemented an automata project to simulate a deterministic finite state machine (DFSM) and Context Free Grammar (CFG) using a user-generated text file defining the alphabet. The project verifies the validity of input strings against the specified alphabet and simplify grammar",
+			"url": "github.com/rgutie136/CS410-Automata"
+		},
+		{
+			"keywords": ["R", "R Studio"],
+			"name": "Using R to Analyze VGSales",
+			"url": "rgutie136.github.io/vgsales.html",
+			"description": "Developed an applied statistics project centered around descriptive and inferential statistics, analyzing video game sales data up to 2020 utilizing the R language"
+		},
+		{
+			"keywords": ["FN Creative Toolset", "UEFN"],
+			"name": "UEFN Fortnite Creative Map",
+			"description": "Created a Fortnite Creative sandbox map featuring unique special features, enabling players to freely explore the environment and engage in separate PvP modes. Initially crafted using the Fortnite Creative Toolset, the map was later enhanced using Unreal Editor for Fortnite",
+			"url": "fortnite.com/@novateamfn/3427-1563-1691"
+		},
+		{
+			"keywords": ["JavaScript", "HTML/CSS"],
+			"name": "Crypto Capitalist Game",
+			"description": "For my AP Computer Science final project, I developed a Clicker Game using Code.org's App Lab and JavaScript. This project was part of the explore assignment, allowing me to apply the concepts learned in class to create an interactive and clicker game",
+			"url": "github.com/rgutie136/AP-CS-Explore-Project"
+		}
+	],
+	"awards": [
+		{
+			"title": "Society of Hispanic Professions in Engineering (SHPE)"
+		},
+		{
+			"title": "Dean's List - All Semesters"
+		}
+	],
+	"sections": [
+		"templates",
+		"profile",
+		"education",
+		"work",
+		"skills",
+		"projects",
+		"awards"
+	]
+}
