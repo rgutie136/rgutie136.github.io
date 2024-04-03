@@ -49,6 +49,18 @@
 				"Contributed to the upkeep of the environment by promptly picking up trash and watering plants to maintain a tidy and welcoming space",
 				"Supported the maintenance team by completing various tasks as needed, demonstrating adaptability and willingness to assist with diverse responsibilities"
 			]
+		},
+		{
+			"highlights": [
+				"Applied my C# training to actively contribute to developing a program that utilized APIs for smooth integration",
+				"Worked closely within teams to merge code bases and ensure project cohesion, showcasing effective teamwork and communication skills",
+				"Conducted thorough testing procedures to validate functionality and ensure precise implementation, earning recognition for my contributions to project success"
+			],
+			"company": "Omnibus Software LLC with Purdue University Northwest",
+			"position": "Software Engineer Practicum - C#",
+			"location": "Hammond, IN",
+			"startDate": "Jan 2024",
+			"endDate": "May 2024"
 		}
 	],
 	"skills": [
@@ -82,13 +94,7 @@
 	"projects": [
 		{
 			"url": "rgutie136.github.io",
-			"keywords": [
-				"HTML",
-				"CSS",
-				"JavaScript",
-				"Bootstrap",
-				"GitHub Pages"
-			],
+			"keywords": ["HTML", "CSS", "Bootstrap", "GitHub Pages"],
 			"name": "Online Portfolio",
 			"description": "In addition to my resume, I maintain an updated online portfolio featuring my latest projects and contact information. Feel free to explore my portfolio to view my skills and accomplishments!"
 		},
@@ -99,7 +105,7 @@
 			"url": "github.com/rgutie136/FitCheck-Project"
 		},
 		{
-			"keywords": ["C++", "Java"],
+			"keywords": ["Java", "C++"],
 			"name": "DFSM + CFG Simulator",
 			"description": "Designed and implemented an automata project to simulate a deterministic finite state machine (DFSM) and Context Free Grammar (CFG) using a user-generated text file defining the alphabet. The project verifies the validity of input strings against the specified alphabet and simplify grammar",
 			"url": "github.com/rgutie136/CS410-Automata"
@@ -117,12 +123,13 @@
 			"url": "fortnite.com/@novateamfn/3427-1563-1691"
 		},
 		{
-			"keywords": ["JavaScript", "HTML/CSS"],
+			"keywords": ["JavaScript"],
 			"name": "Crypto Capitalist Game",
 			"description": "For my AP Computer Science final project, I developed a Clicker Game using Code.org's App Lab and JavaScript. This project was part of the explore assignment, allowing me to apply the concepts learned in class to create an interactive and clicker game",
 			"url": "github.com/rgutie136/AP-CS-Explore-Project"
 		}
 	],
+
 	"awards": [
 		{
 			"title": "Society of Hispanic Professions in Engineering (SHPE)"
@@ -135,9 +142,9 @@
 		"templates",
 		"profile",
 		"education",
+		"projects",
 		"work",
 		"skills",
-		"projects",
 		"awards"
 	]
 }
