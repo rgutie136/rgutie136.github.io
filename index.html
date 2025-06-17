@@ -399,7 +399,7 @@
 		>
 			<div class="row mb-5">
 				<div class="col-md-8 col-xl-6 text-center mx-auto">
-					<h2 style="color: rgb(255, 255, 255)">About Me</h2>
+					<h2>About Me</h2>
 				</div>
 			</div>
 			<p
@@ -438,14 +438,7 @@
 		>
 			<div class="row mb-5">
 				<div class="col-md-8 col-xl-6 text-center mx-auto">
-					<h2
-						style="
-							color: rgb(255, 255, 255);
-							background: var(--primary);
-						"
-					>
-						Skills and Experiences
-					</h2>
+					<h2>Skills and Experiences</h2>
 				</div>
 			</div>
 			<p
@@ -612,7 +605,7 @@
 								stroke-linecap="round"
 								stroke-linejoin="round"
 								class="icon icon-tabler icon-tabler-language"
-								style="font-size: 24px"
+								style="font-size: 24px; color: var(--text)"
 							>
 								<path
 									stroke="none"
@@ -643,6 +636,7 @@
 								fill="currentColor"
 								viewBox="0 0 16 16"
 								class="bi bi-collection-play-fill"
+								style="color: var(--text)"
 							>
 								<path
 									d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm6.258-6.437a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437z"
@@ -667,6 +661,7 @@
 								fill="currentColor"
 								viewBox="0 0 16 16"
 								class="bi bi-controller"
+								style="color: var(--text)"
 							>
 								<path
 									d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"
@@ -696,7 +691,7 @@
 			<div
 				class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center"
 			>
-				<div class="col">
+				<div class="col" style="display: none">
 					<div class="p-4">
 						<span class="badge rounded-pill bg-purpleAccent mb-2"
 							>High School (2020)</span
@@ -720,7 +715,9 @@
 				</div>
 				<div class="col">
 					<div class="p-4">
-						<span class="badge rounded-pill bg-purpleAccent mb-2"
+						<span
+							class="badge rounded-pill bg-purpleAccent mb-2"
+							style="color: var(--text)"
 							>College (2024)</span
 						>
 						<h4>Computer Science, BS</h4>
@@ -782,7 +779,9 @@
 			>
 				<div class="col">
 					<div class="p-4">
-						<span class="badge rounded-pill bg-purpleAccent mb-2"
+						<span
+							class="badge rounded-pill bg-purpleAccent mb-2"
+							style="color: var(--text)"
 							>Practicum</span
 						>
 						<h4>Practicum in CS</h4>
@@ -1092,7 +1091,7 @@
 					<h2 id="contact">Contact Me</h2>
 					<p class="w-lg-50" style="font-size: 20px">
 						<span>Want to connect with me?</span><br />
-						<span>Contact me via email, phone, or LinkedIn!</span>
+						<span>Contact me via email or LinkedIn!</span>
 					</p>
 				</div>
 			</div>
@@ -1102,78 +1101,37 @@
 						class="d-flex flex-column justify-content-center align-items-start h-100"
 						style="margin-top: -35px"
 					>
-						<div class="d-flex align-items-center p-3">
-							<div
-								class="bs-icon-md bs-icon-circle bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"
-								style="background: var(--primary)"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="1em"
-									height="1em"
-									fill="currentColor"
-									viewBox="0 0 16 16"
-									class="bi bi-telephone-fill"
+						<a
+							class="btn mx-auto"
+							role="button"
+							data-bss-hover-animate="pulse"
+							style="background: var(--darkcircle)"
+							href="mailto:rgutie136@gmail.com"
+						>
+							<div class="d-flex align-items-center p-3">
+								<div
+									class="bs-icon-md bs-icon-circle bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"
+									style="background: var(--primary)"
 								>
-									<path
-										fill-rule="evenodd"
-										d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
-									></path>
-								</svg>
-							</div>
-							<div class="px-2">
-								<h6 class="mb-0">Phone</h6>
-								<p class="mb-0">+1 (773)-837-1325</p>
-							</div>
-						</div>
-						<div class="d-flex align-items-center p-3">
-							<div
-								class="bs-icon-md bs-icon-circle bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"
-								style="background: var(--primary)"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="1em"
-									height="1em"
-									fill="currentColor"
-									viewBox="0 0 16 16"
-									class="bi bi-envelope-fill"
-								>
-									<path
-										d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
-									></path>
-								</svg>
-							</div>
-							<div class="px-2">
-								<h6 class="mb-0">Email</h6>
-								<p class="mb-0">rgutie136@gmail.com</p>
-							</div>
-						</div>
-						<div class="d-flex align-items-center p-3">
-							<div
-								class="bs-icon-md bs-icon-circle bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"
-								style="background: var(--primary)"
-							>
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="1em"
-									height="1em"
-									viewBox="0 0 20 20"
-									fill="none"
-								>
-									<path
-										fill-rule="evenodd"
-										clip-rule="evenodd"
-										d="M5.05025 4.05025C7.78392 1.31658 12.2161 1.31658 14.9497 4.05025C17.6834 6.78392 17.6834 11.2161 14.9497 13.9497L10 18.8995L5.05025 13.9497C2.31658 11.2161 2.31658 6.78392 5.05025 4.05025ZM10 11C11.1046 11 12 10.1046 12 9C12 7.89543 11.1046 7 10 7C8.89543 7 8 7.89543 8 9C8 10.1046 8.89543 11 10 11Z"
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="1em"
+										height="1em"
 										fill="currentColor"
-									></path>
-								</svg>
-							</div>
-							<div class="px-2">
-								<h6 class="mb-0">Location</h6>
-								<p class="mb-0">Hammond, IN</p>
-							</div>
-						</div>
+										viewBox="0 0 16 16"
+										class="bi bi-envelope-fill"
+									>
+										<path
+											d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+										></path>
+									</svg>
+								</div>
+								<div class="px-2">
+									<h6 class="mb-0">Email</h6>
+									<p class="mb-0">rgutie136@gmail.com</p>
+								</div>
+							</div></a
+						>
 					</div>
 				</div>
 			</div>
@@ -1238,7 +1196,7 @@
 						></a>
 					</li>
 				</ul>
-				<p class="text-muted mb-0">Copyright © 2024 Rom Gutierrez</p>
+				<p class="text-muted mb-0">Copyright © 2025 Rom Gutierrez</p>
 			</div>
 			<!-- End: Footer -->
 		</section>

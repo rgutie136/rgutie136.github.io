@@ -1,6 +1,7 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 :root {
-	--text: aliceblue;
+	--text: #222222;
+	--alttext: aliceblue;
 	--background: #121212;
 	--primary: #a57ae6;
 	--secondary: #9663c4;
@@ -143,7 +144,7 @@ body {
 
 #navbar a {
 	padding: 10px;
-	color: var(--text);
+	color: var(--alttext);
 	font-weight: bold;
 	border-radius: 20px;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -158,7 +159,7 @@ body {
 
 #navbar a:hover {
 	background-color: var(--bs-dark-text-emphasis);
-	color: #212121;
+	color: var(--text);
 }
 
 .devicon-devicon-plain {
